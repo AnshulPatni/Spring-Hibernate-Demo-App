@@ -12,6 +12,7 @@ public class TestJdbc {
 		String pass = "hbstudent";
 		
 		try {
+			
 			System.out.println("Connecting to database: " + jdbcUrl);
 			
 			Connection myConn =
@@ -20,7 +21,9 @@ public class TestJdbc {
 			System.out.println("Connection successful!!!");
 			
 		} catch (Exception exc) {
+			
 			exc.printStackTrace();
+		
 		}
 		
 	}
